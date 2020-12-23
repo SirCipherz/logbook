@@ -9,6 +9,13 @@ Just run the following command, this will install logbook in ~/.local/bin
 make install
 ```
 
+you also need to set the shell variable 'GPG_KEY' which is your private key in
+order to use logbook, you can do that in your .bashrc if you want like that
+
+```
+export GPG_KEY="My Fucking Key"
+```
+
 ## Usage
 First you need to create a new logbook, this will create an encrypted file named
 ~/.logbook you can change this by setting the LOGBOOK shell variable
